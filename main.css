@@ -1,0 +1,65 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.nav_top{
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 400;
+  color:purple;
+  font-style: normal;
+  height: 45px;
+  width:100%;
+  text-align:left;
+  padding: 4px 4px;
+  border: 1px solid #d0d2d5;
+  border-radius: 3px;
+  font-size: 30px;
+  line-height: 30px;
+  background-color:lightgray;
+/*  margin-left:auto;
+  margin-right:auto;*/
+
+ /* box-shadow: inset 0 3px 7px #f6f7f7;
+  text-decoration: none;
+  width:auto;*/
+ 
+}
+.button1 { 
+  
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1176468/magnifying-glass.png)
+  background-repeat: no-repeat;
+width:10px;
+height: 25px;
+  
+  display:inline-block;
+}
+
+ form div {
+  margin-top: 1em;
+  
+}
+.menu_item1 {
+ 
+}
+.menu_item2, .menu_item3 {
+  color:purple;
+  
+}
+h3{
+  padding-bottom: 1em;
+  font-weight: 200;
+}
+p {
+  tab-size: 10;
+  margin-left:40px;
+}
+
+input { 
+  border: 1px solid #999;
+}
+
+div {
+  box-decoration-break:lightgray;
+  padding: 40px;
+}
