@@ -1,65 +1,125 @@
-body * {
+* {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 80px;
   font-family: 'Roboto', sans-serif;
 }
-.nav_top{
-  box-sizing: border-box;
-  display: inline-block;
-  font-weight: 400;
-  color:purple;
-  font-style: normal;
-  height: 45px;
-  width:100%;
-  text-align:left;
-  padding: 4px 4px;
-  border: 1px solid #d0d2d5;
-  border-radius: 3px;
-  font-size: 30px;
-  line-height: 30px;
-  background-color:lightgray;
-/*  margin-left:auto;
-  margin-right:auto;*/
 
- /* box-shadow: inset 0 3px 7px #f6f7f7;
-  text-decoration: none;
-  width:auto;*/
- 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
 }
-.button1 { 
-  
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1176468/magnifying-glass.png)
-  background-repeat: no-repeat;
-width:10px;
-height: 25px;
-  
+
+.nav_top {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.name_of_site h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.menu_item {
+  font-size: 18px;
+  padding: 0 5px;
+  color: purple;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.search {
+  margin-bottom:16px;
+}
+
+label {
+  display:block;
+  font-size:16px;
+}
+
+.search input {
+  font-family:"Roboto", sans-serif;
+  font-size:17px;
+  font-weight:500;
+  line-height:30px;
+  height:30px;
+  border:1px solid #DDDDDD;
+  border-radius:3px;
+  padding: 0 5px 0 8px;
+  width:400px;
+}
+
+.search .search-button{
+  font-size:17px;
+  width:37px;
+  height:auto;
+  padding: 2px 6px 3px 6px;
+  background-color:white;
+  border: 1px solid #DDDDDD;
+  border-radius:3px;
+  vertical-align:bottom;
+}
+
+.magnifying-glass-icon {
+  height:100%;
+}
+
+.search-pages {
   display:inline-block;
+  font-size:0;
+  margin-bottom:30px;
+  border: 1px solid #DDDDDD;
+  border-radius:3px;
 }
 
- form div {
-  margin-top: 1em;
-  
-}
-.menu_item1 {
- 
-}
-.menu_item2, .menu_item3 {
-  color:purple;
-  
-}
-h3{
-  padding-bottom: 1em;
-  font-weight: 200;
-}
-p {
-  tab-size: 10;
-  margin-left:40px;
+.search-pages-button {
+  display:inline-block;
+  font-size:16px;
+  padding: 4px 15px;
+  border-radius:3px;
 }
 
-input { 
-  border: 1px solid #999;
+.search-pages-display {
+  font-size:16px;
+  padding: 0px 30px;
+  padding: 4px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
 }
 
-div {
-  box-decoration-break:lightgray;
-  padding: 40px;
+.job-listings {
+  padding:0;
+}
+
+.job-listing {
+  list-style:none;
+  margin-bottom:15px;
+}
+
+.job-listing-date, .job-listing-location {
+  color:#999;
+}
+
+.job-listing-title {
+  font-weight:bold;
+  font-size:17px;
+  margin-left:8px;
+  margin-right:8x;
 }
